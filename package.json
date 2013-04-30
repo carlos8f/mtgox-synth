@@ -1,0 +1,34 @@
+{
+  "name": "mtgox-synth",
+  "version": "0.0.0",
+  "description": "music generation driven by bitcoin trading at Mt.Gox",
+  "bin": "./bin/mtgox-synth.sh",
+  "dependencies": {
+    "mtgox-orderbook": "~0.2.0",
+    "socket.io-client": "~0.9.11",
+    "coremidi": "~0.1.0",
+    "midi-api": "~0.1.8",
+    "solfege": "0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/mtgox-synth.git"
+  },
+  "homepage": "https://github.com/carlos8f/mtgox-synth",
+  "keywords": [
+    "mtgox",
+    "bitcoin",
+    "music",
+    "synthesis",
+    "algorithmic",
+    "composition"
+  ],
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "license": "MIT"
+}
