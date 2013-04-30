@@ -89,7 +89,7 @@ function writeEvent (detail) {
   }
 
   voice.maxVolume = Math.max(voice.maxVolume, volume);
-  var velocity = Math.max(20, Math.round((volume / maxTradeVolume) * 127));
+  var velocity = 127; // Math.max(20, Math.round((volume / maxTradeVolume) * 127));
 
   console.log(detail.type_str || detail.type, diff, nextNote, velocity);
   console.log(detail);
